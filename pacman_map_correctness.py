@@ -8,8 +8,9 @@ import json
 def calculate_super_food (board):
 
     num_of_super_food = 0
+    super_food = u"s"
     for cell in board:
-        if cell.includes("s"):
+        if super_food in cell:
             num_of_super_food += 1
 
     return num_of_super_food
@@ -39,6 +40,7 @@ def is_map_correct(map_config):
         print("Number of super foods are out of range!!!")
         is_correct = False
 
+    # check number of ghosts:
     return is_correct
     
 
