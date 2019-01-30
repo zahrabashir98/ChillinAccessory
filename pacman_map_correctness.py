@@ -40,7 +40,10 @@ def is_map_correct(map_config):
         print("Number of super foods are out of range!!!")
         is_correct = False
 
-    # check number of ghosts:
+    # check number of ghosts
+    if len(ghosts) > 4:
+        is_correct = False
+        print("Number of ghosts OverFlow :)")
     return is_correct
     
 
