@@ -10,4 +10,9 @@ Here I share my toolbox in developing chillin games
   ``
 
   where map_address is actually where your json file is ...
- 
+  
+  ### run_all
+  This file helps you to run all client and server and monitor toghether with one command
+  Just don't forget to set directories in configs.json
+  Notice that it supports monitor for windows, linux and mac
+  
